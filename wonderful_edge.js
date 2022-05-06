@@ -2496,9 +2496,7 @@ Edge.registerCompositionDefn(compId, symbols, fonts, resources);
 /**
  * Adobe Edge DOM Ready Event Handler
  */
-
-const audioPlayer = document.querySelector("audio");
-audioPlayer.addEventListener("play", function () {
-  Edge.launchComposition(compId);  
+$(window).click(function() {
+     Edge.launchComposition(compId);
 });
 })(jQuery, AdobeEdge, "EDGE-938852");
