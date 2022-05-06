@@ -2496,7 +2496,7 @@ Edge.registerCompositionDefn(compId, symbols, fonts, resources);
 /**
  * Adobe Edge DOM Ready Event Handler
  */
-$(window).click(function() {
+$("#mp3").click(function() {
      Edge.launchComposition(compId);
 });
 })(jQuery, AdobeEdge, "EDGE-938852");
