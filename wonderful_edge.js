@@ -2496,9 +2496,7 @@ Edge.registerCompositionDefn(compId, symbols, fonts, resources);
 /**
  * Adobe Edge DOM Ready Event Handler
  */
-/*
-$(window).ready(function() {
+$(window).(function() {
      Edge.launchComposition(compId);
 });
 })(jQuery, AdobeEdge, "EDGE-938852");
-*/
