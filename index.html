@@ -18,15 +18,10 @@
 	<p class="title">趣味は恋</p>
 	<div id="Stage" class="EDGE-938852 custom_stage">
 	</div>
-	<audio id="mp3" controls hidden="true">
+	<audio id="mp3" controls>
 		<source src="audio/sound.mp3" type="audio/mpeg">
 		Your browser does not support the audio element.
 	</audio>
-	<p class="teammates">画面をクリックしたら動画と歌が実行されます。</p>
+	<p class="teammates"><button id="start">このボタンをクリックしたら動画と歌が実行されます。</button></p>
 </body>
-<script>
-   $(windows).click(function() {
-      $("#mp3").play();
-   };
-</script>
 </html>
